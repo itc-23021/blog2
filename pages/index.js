@@ -1,15 +1,5 @@
-export default function Home () {
-  return (
-    <>
-      <header>HEADER</header>
+import Hero from 'components/hero'
 
-      <main>
-        <div>
-          <h1>CUBE</h1>
-          <p>アウトプットしていくサイト</p>
-        </div>
-      </main>
-      <footer>FOOTER</footer>
-    </>
-  )
+export default function Home () {
+  return <Hero title='CUBE' subtitle='アウトプットしていくサイト' imageOn />
 }
