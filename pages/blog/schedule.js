@@ -14,7 +14,7 @@ export default function Schedule ({
   return (
     <Container>
       <article>
-        <PostHeader title={title} subtitle='Blog Article' publish={publish} />i
+        <PostHeader title={title} subtitle='Blog Article' publish={publish} />
         <figure>
           <Image
             src={eyecatch.url}
